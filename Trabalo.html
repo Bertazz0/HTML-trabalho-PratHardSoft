@@ -1,37 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <style>
       body{
+      font-family: 'Poppings', sans-serif;
       background-color: #00001a;
       color: white;
       text-align:center;
-      margin:0;
-      padding:0;
+      margin:10px;
+      padding:20px;
       }
     	.conteudo{
     background-color: #2f364a;
-  	color: white;
-  	padding: 10px;
-      margin:10px;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
       }
       .footer {
-  		background-color: #f1f1f1;
-      color:black;
+  		background-color: #1a1a2e;
+    color: white;
   		padding: 10px;
 		}
+.conteudo, .footer {
+    border-radius: 8px;
+}
+img {
+transition: transform 0.3s ease;
+    border-radius: 10px;
+box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5);
+}
+img:hover {
+    transform: scale(1.05);
+}
     </style>
-    <title>Placa Mãe Arthur Francisco</title>
+    <title>Trabalho Placa Mãe Arthur B. Francisco K.</title>
     <meta charset="utf-8">
   </head>
   <body>
     <h1>Placa Mãe</h1>
     <h2>Intel Desktop Board D845EPI/D845GVSR</h2>
-    <img src="https://theretroweb.com/motherboard/image/img-20241129-135235front-674b3062169fc543836972.jpg" width="250" height="250">
+    <img src="https://theretroweb.com/motherboard/image/img-20241129-135235front-674b3062169fc543836972.jpg" width="250" height="250" alt="Intel Desktop Board D845EPI/D845GVSR">
+<div class="conteudo">
      <h2>Soquete</h2>
-      <p class="conteudo">O soquete utilizado é o Socket 478, ou mPGA478, como mostrado na imagem a baixo. É um tipo de soquete com 478 pinos utilizado por processadores como Intel Pentium 4 e Celeron; É 32 bits e seu sucessor é o LGA775.<br>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Socket_PGA478B.jpg/1024px-Socket_PGA478B.jpg" width="250" height="250" class="conteudo">
+      <p>O soquete utilizado é o <strong>Socket 478</strong>, que é também conhecido como Socket N. Lançado em 2001, primariamente foi criado com a premissa de acomodar os processadores da arquitetura Pentium 4, mas futuramente também suportou alguns modelos de Celeron.<br>Possui 478 pinos, e suas frequências de barramento são, 400 MHz, 533MHz e 800MHz, e algumas versões começaram a trazer suporte a tecnologia do <strong>Hyper-Threading</strong>.<br><br>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Socket_PGA478B.jpg/1024px-Socket_PGA478B.jpg" width="250" height="250" alt="Socket 478">
         </p>
+<h2>Chipset</h2>
+<p>O chipset utilizado é o <strong>Intel 845E</strong>, foi projetado para trabalhar com processadores como <strong>Pentium 4</strong>, fazendo uso do <strong>Socket 478</strong>. Ele suporta barramentos do Pentium 4 de 400 MHz e 533 MHz. Foi um dos pioneiros no processo de migração da Intel para a tecnologia DDR,na qual previamente era utilizada a RDRAM em chipsets como Intel 850 e Intel 850E.</p>
+<h3>Chipset Norte</h3>
+<p>O chipset norte do Intel 845E é o <strong>Intel 82845E</strong>, ele é um <strong>MCH</strong>, que significa <i>Memory Controller Hub</i>, responsável por conectar o processador, a memória RAM, o barramento e a ponte sul. O termo <i>MCH</i> foi depois substituído pelo termo "<strong>Northbridge"</strong>. Northbridges são responsáveis por interligar componentes que necessitam de um acesso de alta velocidade, como placa de vídeo, memória RAM, por isso normalmente são encontradas mais próximas ao processador, para diminuir latência pela diminuição de distância.</p>
+<h3>Chipset Sul</h3>
+<p>O <strong>Intel 82801DB</strong> é a <i>Southbridge</i> utilizada no chipset <strong>Intel 845E</strong>. Utiliza a tecnologia <strong>ICH4</strong>, que foi uma grande melhoria em termos de transferência de dados para sua época, foi responsável por introduzir suporte nativo a conexões do tipo <i>SATA</i>. Por ser uma ponte sul, é responsável por controlar componentes de menor velociadade em comparação com o <strong>Intel 82845E</strong>, como discos rígicos, portas USB, placas de expansão, placas de rede, dentre outras.</p>
+</div>
         <p class="footer">Trabalho de Arthur Bertazzo de Azevedo, Francisco Kloh de Souza.</p>
   </body>
 </html>
