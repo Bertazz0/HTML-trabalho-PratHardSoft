@@ -3,37 +3,47 @@
   <head>
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <style>
-      body{
-      font-family: 'Poppings', sans-serif;
-      background-color: #00001a;
-      color: white;
-      text-align:center;
-      margin:10px;
-      padding:20px;
+	    body{
+	      font-family: 'Poppings', sans-serif;
+	      background-color: #00001a;
+	      color: white;
+	      text-align:center;
+	      letter-spacing: 0.2px;
+	      margin:10px;
+	      padding:20px;
       }
-    	.conteudo{
-    background-color: #2f364a;
-    color: white;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 8px;
+	.conteudo{
+		background-color: #2f364a;
+		color: white;
+		padding: 20px;
+		margin: 20px;
+		border-radius: 8px;
       }
-      .footer {
-  		background-color: #1a1a2e;
-    color: white;
-  		padding: 10px;
+	    .footer {
+		    background-color: #1a1a2e;
+		    color: white;
+		    padding: 10px;
 		}
-.conteudo, .footer {
-    border-radius: 8px;
+	    .conteudo, .footer {
+		    border-radius: 8px;
+		    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }
-img {
-transition: transform 0.3s ease;
-    border-radius: 10px;
-box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5);
+	    img {
+		    transition: transform 0.3s ease;
+		    border-radius: 10px;
+		    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5);
 }
-img:hover {
-    transform: scale(1.05);
+	    img:hover {
+		    transform: scale(1.05);
 }
+	    a {
+		    color: #00d9ff;
+		    text-decoration: none;
+  }
+	    a:hover {
+		    color: #b100ff;
+		    text-decoration: underline;
+  }
     </style>
     <title>Trabalho Placa Mãe Arthur B. Francisco K.</title>
     <meta charset="utf-8">
@@ -43,10 +53,10 @@ img:hover {
     <h2>Intel Desktop Board D845EPI/D845GVSR</h2>
     <img src="https://theretroweb.com/motherboard/image/img-20241129-135235front-674b3062169fc543836972.jpg" width="250" height="250" alt="Intel Desktop Board D845EPI/D845GVSR">
 <div class="conteudo">
-     <h2>Soquete</h2>
-      <p>O soquete utilizado é o <strong>Socket 478</strong>, que é também conhecido como Socket N. Lançado em 2001, primariamente foi criado com a premissa de acomodar os processadores da arquitetura Pentium 4, mas futuramente também suportou alguns modelos de Celeron.<br>Possui 478 pinos, e suas frequências de barramento são, 400 MHz, 533MHz e 800MHz, e algumas versões começaram a trazer suporte a tecnologia do <strong>Hyper-Threading</strong>.<br><br>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Socket_PGA478B.jpg/1024px-Socket_PGA478B.jpg" width="250" height="250" alt="Socket 478">
-        </p>
+<h2>Soquete</h2>
+<p>O soquete utilizado é o <strong>Socket 478</strong>, que é também conhecido como Socket N. Lançado em 2001, primariamente foi criado com a premissa de acomodar os processadores da arquitetura Pentium 4, mas futuramente também suportou alguns modelos de Celeron.<br>Possui 478 pinos, e suas frequências de barramento são, 400 MHz, 533MHz e 800MHz, e algumas versões começaram a trazer suporte a tecnologia do <strong>Hyper-Threading</strong>.<br><br>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Socket_PGA478B.jpg/1024px-Socket_PGA478B.jpg" width="250" height="250" alt="Socket 478">
+</p>
 <h2>Chipset</h2>
 <p>O chipset utilizado é o <strong>Intel 845E</strong>, foi projetado para trabalhar com processadores como <strong>Pentium 4</strong>, fazendo uso do <strong>Socket 478</strong>. Ele suporta barramentos do Pentium 4 de 400 MHz e 533 MHz. Foi um dos pioneiros no processo de migração da Intel para a tecnologia DDR,na qual previamente era utilizada a RDRAM em chipsets como Intel 850 e Intel 850E.</p>
 <h3>Chipset Norte</h3>
@@ -55,7 +65,11 @@ img:hover {
 <p>O <strong>Intel 82801DB</strong> é a <i>Southbridge</i> utilizada no chipset <strong>Intel 845E</strong>. Utiliza a tecnologia <strong>ICH4</strong>, que foi uma grande melhoria em termos de transferência de dados para sua época, foi responsável por introduzir suporte nativo a conexões do tipo <i>SATA</i>. Por ser uma ponte sul, é responsável por controlar componentes de menor velociadade em comparação com o <strong>Intel 82845E</strong>, como discos rígicos, portas USB, placas de expansão, placas de rede, dentre outras.</p>
 <h2>Bateria</h2>
 <p>A chamada <strong>bateria CNIS</strong>, é responsável por alimentar o <i>chip CMOS</i>, que armazena configurações básicas enquanto o computador esta desligado, como data, hora, configurações e senhas do BIOS. Ela é da tensão de 3 volts, feita de lítio, e tem formato de moeda. Tem uma vida útil de normalmente 5 a 10 anos, e o computador funciona sem ela.</p>
+<h2>Slot de memória RAM</h2>
+<p>Tendo 2 slots <strong>DDR UDIMM</strong>, e uma capacidade máxima de <strong>2 Gb</strong>, são encontrados ao lado do computador. Utilizam a tecnologia DDR1, e utilizar <i>RAMS</i> de diferentes capacidades e frequência pode causar instabilidade ou possíveis ineficiências. Seu sistema de instalação é simples, tendo somente 2 travas laterais em cada slot para garantir que a placa esteja estacionária durante sua utilização.</p>
+<h2>Slots de Expansão</h2>
+<p>Slots de expansão se caracteizam por serem <strong>conectores físicos á placa-mãe</strong>, aonde adiciona-se peças complementares. O placa-mãe comentada possui somente <strong>2</strong> tipos de slots de expansão. Sendo o <i>AGP</i> responsável por placas de vídeo, encontrado no meio da placa-mãe, com coloração marrom e capacidade de <strong>1.5V</strong>. E o <i>PCI</i>, tendo 32 bits e coloração branca, localizados no <i>Southbridge</i>, apresenta diversos usos, como: Placas de som, rede, USB extra, etc.</p>
 </div>
-        <p class="footer">Trabalho de Arthur Bertazzo de Azevedo, Francisco Kloh de Souza.</p>
+<p class="footer">Trabalho de Arthur Bertazzo de Azevedo, Francisco Kloh de Souza.<br>Mais informações podem ser encontradas na página do <a href="https://github.com/Bertazz0/HTML-trabalho-PratHardSoft">GIT HUB</a> sobre o projeto.</p>
   </body>
 </html>
