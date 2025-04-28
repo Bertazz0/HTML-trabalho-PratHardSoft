@@ -1,7 +1,0 @@
-Anotações:
-Arthur fazer de 1 á 6, além do CSS e setup inicial.
-Francisco fazer de 7 a 13(14 no moodle).
-Fontes:
-https://theretroweb.com/motherboards/s/intel-d845epi-plum-island
-https://www.printertec.com.br/placa-intel-d845gvsr?srsltid=AfmBOoqMb0RhbRjU4K31bvkWB9qZlDX0w2of_M_R9hk77xcAhqdNq8nk
-https://microdream.co.uk/intel-d845epi-d845gvsr-c54560-socket-478-motherboard.html
